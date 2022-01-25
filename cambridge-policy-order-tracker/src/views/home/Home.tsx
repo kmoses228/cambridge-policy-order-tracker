@@ -7,6 +7,6 @@ const Home: React.FC = () => {
   const { value, status } = useAsync<PolicyOrder[]>(fetchPolicyOrders, true);
   console.log(status, value);
 
-  return <div>Have a good coding</div>;
+  return <div>App</div>;
 };
 export default Home;
