@@ -3,6 +3,7 @@ export interface PolicyOrder {
   link: string;
   summary: string;
   topic: Topic;
+  date: string;
 }
 
 export enum Topic {
