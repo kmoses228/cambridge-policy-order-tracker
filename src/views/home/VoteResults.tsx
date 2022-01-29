@@ -44,7 +44,7 @@ const VoteResults: React.FC<Props> = ({ po }) => {
         {!!sponsors.length && (
           <>
             <Text color="muted">Sponsored by:</Text>
-            {sponsors.map((sponsor) => (
+            {sponsors.map((sponsor, index) => (
               <CounselorAvatar
                 key={sponsor}
                 counselor={Counselor[sponsor as keyof typeof Counselor]}
@@ -52,13 +52,12 @@ const VoteResults: React.FC<Props> = ({ po }) => {
                 marginX={5}
               />
             ))}
+            <Pane marginRight={20} />
           </>
         )}
         {!!cosponsors.length && (
           <>
-            <Text marginLeft={20} color="muted">
-              Cosponsored by:
-            </Text>
+            <Text color="muted">Cosponsored by:</Text>
             {cosponsors.map((cosponsor) => (
               <CounselorAvatar
                 key={cosponsor}
