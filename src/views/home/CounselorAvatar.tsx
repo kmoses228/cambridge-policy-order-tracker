@@ -12,7 +12,7 @@ const CounselorInfo = {
     name: "Denise Simmons",
   },
   [Counselor.marcMcGovern]: {
-    name: "Mark McGovern",
+    name: "Marc McGovern",
   },
   [Counselor.pattyNolan]: {
     name: "Patty Nolan",
