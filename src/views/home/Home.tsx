@@ -7,10 +7,10 @@ import PolicyOrderRow from "./PolicyOrderRow";
 import TopicIcon from "./TopicIcon";
 import moment from "moment";
 import Footer from "./Footer";
+import seal from "../../img/seal.png";
 
 const Home: React.FC = () => {
   const { value, status } = useAsync<PolicyOrder[]>(fetchPolicyOrders, true);
-  console.log(status, value);
 
   let content = null;
   if (status !== "success" || !value) {
@@ -35,7 +35,13 @@ const Home: React.FC = () => {
       justifyContent="start"
       flexDirection="column"
     >
-      <Heading size={900} marginTop={55} marginBottom={55}>
+      <img
+        style={{ marginTop: 20 }}
+        src={seal}
+        width={150}
+        alt="Seal of Cambridge, Massachusetts"
+      />
+      <Heading size={900} marginTop={20} marginBottom={50}>
         Cambridge Policy Orders
       </Heading>
       <Pane textAlign="center" marginBottom={30}>

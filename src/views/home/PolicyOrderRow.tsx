@@ -2,6 +2,7 @@ import { Heading, Link, Pane, Small, Text, useTheme } from "evergreen-ui";
 import { PolicyOrder } from "../../types";
 import TopicIcon from "./TopicIcon";
 import moment from "moment";
+import VoteResults from "./VoteResults";
 
 type Props = {
   po: PolicyOrder;
@@ -17,6 +18,8 @@ const PolicyOrderRow: React.FC<Props> = ({ po }) => {
       marginBottom={20}
       padding={20}
       maxWidth={750}
+      borderRadius={10}
+      border={`1px solid ${theme.colors.gray400}`}
     >
       <Pane display="flex">
         <Pane width={40}>
@@ -34,9 +37,7 @@ const PolicyOrderRow: React.FC<Props> = ({ po }) => {
           <Text>{po.summary}</Text>
         </Pane>
       </Pane>
-      <Pane marginTop={10}>
-        <Text color="muted">Voting Results</Text>
-      </Pane>
+      <VoteResults po={po} />
     </Pane>
   );
 };

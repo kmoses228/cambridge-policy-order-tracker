@@ -2,14 +2,13 @@ import {
   BadgeIcon,
   BookIcon,
   CogIcon,
+  DollarIcon,
   Heading,
   HeartIcon,
   HomeIcon,
   IconComponent,
-  ManualIcon,
   MapIcon,
   Pane,
-  PrescriptionIcon,
   TakeActionIcon,
   Tooltip,
   TrainIcon,
@@ -27,6 +26,7 @@ const IconForTopic: { [key in keyof typeof Topic]: IconComponent | null } = {
   [Topic.Education]: BookIcon,
   [Topic.Housing]: HomeIcon,
   [Topic["Animal Welfare"]]: null,
+  [Topic.Finance]: DollarIcon,
 };
 
 type Props = {

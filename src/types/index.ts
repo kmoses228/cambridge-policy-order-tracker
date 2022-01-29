@@ -4,6 +4,7 @@ export interface PolicyOrder {
   summary: string;
   topic: Topic;
   date: string;
+  result: string;
 }
 
 export enum Topic {
@@ -16,4 +17,16 @@ export enum Topic {
   Education = "Education",
   Housing = "Housing",
   "Animal Welfare" = "Animal Welfare",
+  Finance = "Finance",
+}
+
+export enum Counselor {
+  alannaMallon = "alannaMallon",
+  burhanAzeem = "burhanAzeem",
+  deniseSimmons = "deniseSimmons",
+  marcMcGovern = "marcMcGovern",
+  pattyNolan = "pattyNolan",
+  paulToner = "paulToner",
+  quintonZondervan = "quintonZondervan",
+  sumbulSiddiqui = "sumbulSiddiqui",
 }
