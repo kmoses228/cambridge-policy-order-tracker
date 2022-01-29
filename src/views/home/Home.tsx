@@ -65,12 +65,7 @@ const Home: React.FC = () => {
             </Pane>
           ))}
       </Pane> */}
-      <Pane
-        display="flex"
-        flexDirection="column"
-        alignItems="stretch"
-        marginX={20}
-      >
+      <Pane display="flex" flexDirection="column" alignItems="stretch">
         {content}
       </Pane>
       <Footer />
