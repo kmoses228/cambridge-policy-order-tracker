@@ -10,6 +10,17 @@ const Footer: React.FC = () => {
           target="blank"
         >
           Google Sheet
+        </Link>{" "}
+        | Built by{" "}
+        <Link href="https://twitter.com/okieIpullup" target="blank">
+          Kevin Moses
+        </Link>{" "}
+        on{" "}
+        <Link
+          href="https://github.com/kmoses228/cambridge-policy-order-tracker"
+          target="blank"
+        >
+          GitHub
         </Link>
       </Text>
       <br />
