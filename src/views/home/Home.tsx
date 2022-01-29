@@ -44,7 +44,7 @@ const Home: React.FC = () => {
       <Heading size={900} marginTop={20} marginBottom={50}>
         Cambridge Policy Orders
       </Heading>
-      <Pane textAlign="center" marginBottom={30}>
+      {/* <Pane textAlign="center" marginBottom={30}>
         {Object.keys(Topic)
           .sort()
           .map((topic: string) => (
@@ -64,8 +64,13 @@ const Home: React.FC = () => {
               </Text>
             </Pane>
           ))}
-      </Pane>
-      <Pane display="flex" flexDirection="column" alignItems="stretch">
+      </Pane> */}
+      <Pane
+        display="flex"
+        flexDirection="column"
+        alignItems="stretch"
+        marginX={20}
+      >
         {content}
       </Pane>
       <Footer />
