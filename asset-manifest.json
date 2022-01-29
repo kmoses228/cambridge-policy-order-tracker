@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cambridge-policy-order-tracker/static/css/main.f192dfd8.css",
-    "main.js": "/cambridge-policy-order-tracker/static/js/main.cd77c916.js",
+    "main.js": "/cambridge-policy-order-tracker/static/js/main.5d1271c7.js",
     "static/js/787.baadec75.chunk.js": "/cambridge-policy-order-tracker/static/js/787.baadec75.chunk.js",
     "static/media/seal.png": "/cambridge-policy-order-tracker/static/media/seal.f2f4abc7440295b0c0ee.png",
     "static/media/burhanAzeem.jpeg": "/cambridge-policy-order-tracker/static/media/burhanAzeem.b38022d18d694936f9ec.jpeg",
@@ -9,11 +9,11 @@
     "static/media/pattyNolan.jpeg": "/cambridge-policy-order-tracker/static/media/pattyNolan.5099e14eb187c1993141.jpeg",
     "index.html": "/cambridge-policy-order-tracker/index.html",
     "main.f192dfd8.css.map": "/cambridge-policy-order-tracker/static/css/main.f192dfd8.css.map",
-    "main.cd77c916.js.map": "/cambridge-policy-order-tracker/static/js/main.cd77c916.js.map",
+    "main.5d1271c7.js.map": "/cambridge-policy-order-tracker/static/js/main.5d1271c7.js.map",
     "787.baadec75.chunk.js.map": "/cambridge-policy-order-tracker/static/js/787.baadec75.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f192dfd8.css",
-    "static/js/main.cd77c916.js"
+    "static/js/main.5d1271c7.js"
   ]
 }
