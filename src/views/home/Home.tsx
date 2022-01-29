@@ -1,10 +1,9 @@
 import React from "react";
 import { fetchPolicyOrders } from "../../data/GoogleSheets";
 import useAsync from "../../hooks/useAsync";
-import { PolicyOrder, Topic } from "../../types";
-import { Pane, Heading, Spinner, Small, Link, Text } from "evergreen-ui";
+import { PolicyOrder } from "../../types";
+import { Pane, Heading, Spinner } from "evergreen-ui";
 import PolicyOrderRow from "./PolicyOrderRow";
-import TopicIcon from "./TopicIcon";
 import moment from "moment";
 import Footer from "./Footer";
 import seal from "../../img/seal.png";

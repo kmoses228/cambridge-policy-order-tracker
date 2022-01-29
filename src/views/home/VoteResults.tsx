@@ -40,7 +40,7 @@ const VoteResults: React.FC<Props> = ({ po }) => {
 
   return (
     <>
-      <Pane display="flex" alignItems="center" marginTop={10}>
+      <Pane display="flex" alignItems="center" marginTop={10} flexWrap="wrap">
         {!!sponsors.length && (
           <>
             <Text color="muted">Sponsored by:</Text>
