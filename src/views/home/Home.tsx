@@ -65,7 +65,12 @@ const Home: React.FC = () => {
             </Pane>
           ))}
       </Pane> */}
-      <Pane display="flex" flexDirection="column" alignItems="stretch">
+      <Pane
+        display="flex"
+        flexDirection="column"
+        alignItems="stretch"
+        maxWidth="100%"
+      >
         {content}
       </Pane>
       <Footer />
