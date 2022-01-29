@@ -44,7 +44,7 @@ const VoteResults: React.FC<Props> = ({ po }) => {
         {!!sponsors.length && (
           <>
             <Text color="muted">Sponsored by:</Text>
-            {sponsors.map((sponsor, index) => (
+            {sponsors.map((sponsor) => (
               <CounselorAvatar
                 key={sponsor}
                 counselor={Counselor[sponsor as keyof typeof Counselor]}

@@ -24,6 +24,7 @@ export enum Counselor {
   alannaMallon = "alannaMallon",
   burhanAzeem = "burhanAzeem",
   deniseSimmons = "deniseSimmons",
+  dennisCarlone = "dennisCarlone",
   marcMcGovern = "marcMcGovern",
   pattyNolan = "pattyNolan",
   paulToner = "paulToner",
