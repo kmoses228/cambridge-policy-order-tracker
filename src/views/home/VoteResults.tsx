@@ -71,7 +71,7 @@ const VoteResults: React.FC<Props> = ({ po }) => {
       <Paragraph marginTop={10} color="muted">
         Voting
       </Paragraph>
-      {!hasVotes && <Text>TBD</Text>}
+      {!hasVotes && <Text>Pending</Text>}
       {hasVotes && (
         <>
           <Pane display="flex" marginTop={5} width="100%">
