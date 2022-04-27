@@ -31,7 +31,7 @@ const VoteResults: React.FC<Props> = ({ po }) => {
     } else if (result.toUpperCase().includes("Y")) {
       results.yes.push(key);
     } else if (result.toUpperCase().includes("N")) {
-      results.yes.push(key);
+      results.no.push(key);
     } else {
       results.nv.push(key);
     }
