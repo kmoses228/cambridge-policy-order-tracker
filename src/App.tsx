@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/cambridge-policy-order-tracker">
       <Home />
     </Router>
   );
