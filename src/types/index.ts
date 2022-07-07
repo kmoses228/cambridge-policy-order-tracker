@@ -1,10 +1,21 @@
-export interface PolicyOrder {
+export interface PolicyOrderEgg {
   policyOrder: string;
   link: string;
   summary: string;
   topic: Topic;
   date: string;
   result: string;
+}
+
+export interface PolicyOrder extends PolicyOrderEgg {
+  hasVotes: boolean;
+  sponsors: Counselor[];
+  cosponsors: Counselor[];
+  results: {
+    yes: Counselor[];
+    no: Counselor[];
+    nv: Counselor[];
+  };
 }
 
 export enum Topic {
